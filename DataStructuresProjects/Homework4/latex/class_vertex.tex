@@ -1,0 +1,266 @@
+\hypertarget{class_vertex}{\section{Vertex Class Reference}
+\label{class_vertex}\index{Vertex@{Vertex}}
+}
+Inheritance diagram for Vertex\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_vertex}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_vertex_a9cad0b2dfe2d2d0979d47b2be8325598}{Vertex} (String vertex\+Id)
+\begin{DoxyCompactList}\small\item\em constructs a new vertex with the given vertex\+I\+D \end{DoxyCompactList}\item 
+void \hyperlink{class_vertex_a36d64c57d236fb0b9c059e2584b53496}{add\+Adjacency} (\hyperlink{class_edge}{Edge} edge)
+\begin{DoxyCompactList}\small\item\em adds the given vertex as an adjacency \end{DoxyCompactList}\item 
+void \hyperlink{class_vertex_ae9ab92525b737f12bf6ed806d7d3a749}{set\+Vertex\+I\+D} (String I\+D)
+\begin{DoxyCompactList}\small\item\em sets the \hyperlink{class_vertex}{Vertex}'s I\+D \end{DoxyCompactList}\item 
+void \hyperlink{class_vertex_a98183e2dab0e6b001de3e07d5dd881a3}{set\+Latitude} (int lat)
+\begin{DoxyCompactList}\small\item\em sets the latitude coordinate for the \hyperlink{class_vertex}{Vertex} \end{DoxyCompactList}\item 
+void \hyperlink{class_vertex_a29dca66870088075feb30929f2908cf4}{set\+Longitude} (int lon)
+\begin{DoxyCompactList}\small\item\em sets the longitude coordinate for the \hyperlink{class_vertex}{Vertex} \end{DoxyCompactList}\item 
+void \hyperlink{class_vertex_a5d438de1e0b630a74195c816216f092e}{set\+Min\+Distance} (int min)
+\begin{DoxyCompactList}\small\item\em sets the minimul distance for the \hyperlink{class_vertex}{Vertex} \end{DoxyCompactList}\item 
+void \hyperlink{class_vertex_aae1304e9e84e3cc4dc5c58e12909ee2b}{set\+Prev\+Vertex} (String prev)
+\begin{DoxyCompactList}\small\item\em sets the previous \hyperlink{class_vertex}{Vertex}'s previous \hyperlink{class_vertex}{Vertex} \end{DoxyCompactList}\item 
+Array\+List$<$ \hyperlink{class_edge}{Edge} $>$ \hyperlink{class_vertex_a0e50bba961059c18d09eae9e4e7ddae6}{get\+Adjacencies} ()
+\begin{DoxyCompactList}\small\item\em returns the \hyperlink{class_vertex}{Vertex}'s adjacent Vertexes \end{DoxyCompactList}\item 
+String \hyperlink{class_vertex_a90c55a439ee38096f6793d8b53213927}{get\+Vertex\+I\+D} ()
+\begin{DoxyCompactList}\small\item\em returns the \hyperlink{class_vertex}{Vertex}'s I\+D \end{DoxyCompactList}\item 
+int \hyperlink{class_vertex_a1e30dae20c0f1e9583072b73261fd671}{get\+Latitude} ()
+\begin{DoxyCompactList}\small\item\em returns the \hyperlink{class_vertex}{Vertex}'s latitude coordinate \end{DoxyCompactList}\item 
+int \hyperlink{class_vertex_a9cc090eee3ea349c68d721e9d447e6c4}{get\+Longitude} ()
+\begin{DoxyCompactList}\small\item\em returns the \hyperlink{class_vertex}{Vertex}'s longitude coordinate \end{DoxyCompactList}\item 
+int \hyperlink{class_vertex_a184927c05667f9bd103f8ae3ed0d49c6}{get\+Min\+Distance} ()
+\begin{DoxyCompactList}\small\item\em returns the \hyperlink{class_vertex}{Vertex}'s min\+Distance \end{DoxyCompactList}\item 
+String \hyperlink{class_vertex_adc8513a28f00e0b38d99cdee8229fe06}{get\+Prev\+Vertex} ()
+\begin{DoxyCompactList}\small\item\em returns the \hyperlink{class_vertex}{Vertex} previous to the this \hyperlink{class_vertex}{Vertex} \end{DoxyCompactList}\item 
+\hypertarget{class_vertex_a7dcf0fc40eacb7e21a8f12682b9be8d4}{int {\bfseries compare\+To} (\hyperlink{class_vertex}{Vertex} vert)}\label{class_vertex_a7dcf0fc40eacb7e21a8f12682b9be8d4}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_vertex_a9cad0b2dfe2d2d0979d47b2be8325598}{\index{Vertex@{Vertex}!Vertex@{Vertex}}
+\index{Vertex@{Vertex}!Vertex@{Vertex}}
+\subsubsection[{Vertex}]{\setlength{\rightskip}{0pt plus 5cm}Vertex.\+Vertex (
+\begin{DoxyParamCaption}
+\item[{String}]{vertex\+Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_vertex_a9cad0b2dfe2d2d0979d47b2be8325598}
+
+
+constructs a new vertex with the given vertex\+I\+D 
+
+
+\begin{DoxyParams}{Parameters}
+{\em String} & vertex\+Id which expects the I\+D for the vertex \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_vertex_a36d64c57d236fb0b9c059e2584b53496}{\index{Vertex@{Vertex}!add\+Adjacency@{add\+Adjacency}}
+\index{add\+Adjacency@{add\+Adjacency}!Vertex@{Vertex}}
+\subsubsection[{add\+Adjacency}]{\setlength{\rightskip}{0pt plus 5cm}void Vertex.\+add\+Adjacency (
+\begin{DoxyParamCaption}
+\item[{{\bf Edge}}]{edge}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_vertex_a36d64c57d236fb0b9c059e2584b53496}
+
+
+adds the given vertex as an adjacency 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \hyperlink{class_vertex}{Vertex}} & vertex which expects the vertex that is adjacent \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{class_vertex_a0e50bba961059c18d09eae9e4e7ddae6}{\index{Vertex@{Vertex}!get\+Adjacencies@{get\+Adjacencies}}
+\index{get\+Adjacencies@{get\+Adjacencies}!Vertex@{Vertex}}
+\subsubsection[{get\+Adjacencies}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<${\bf Edge}$>$ Vertex.\+get\+Adjacencies (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_vertex_a0e50bba961059c18d09eae9e4e7ddae6}
+
+
+returns the \hyperlink{class_vertex}{Vertex}'s adjacent Vertexes 
+
+\begin{DoxyReturn}{Returns}
+Array\+List$<$\+Vertex$>$ 
+\end{DoxyReturn}
+\hypertarget{class_vertex_a1e30dae20c0f1e9583072b73261fd671}{\index{Vertex@{Vertex}!get\+Latitude@{get\+Latitude}}
+\index{get\+Latitude@{get\+Latitude}!Vertex@{Vertex}}
+\subsubsection[{get\+Latitude}]{\setlength{\rightskip}{0pt plus 5cm}int Vertex.\+get\+Latitude (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_vertex_a1e30dae20c0f1e9583072b73261fd671}
+
+
+returns the \hyperlink{class_vertex}{Vertex}'s latitude coordinate 
+
+\begin{DoxyReturn}{Returns}
+double 
+\end{DoxyReturn}
+\hypertarget{class_vertex_a9cc090eee3ea349c68d721e9d447e6c4}{\index{Vertex@{Vertex}!get\+Longitude@{get\+Longitude}}
+\index{get\+Longitude@{get\+Longitude}!Vertex@{Vertex}}
+\subsubsection[{get\+Longitude}]{\setlength{\rightskip}{0pt plus 5cm}int Vertex.\+get\+Longitude (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_vertex_a9cc090eee3ea349c68d721e9d447e6c4}
+
+
+returns the \hyperlink{class_vertex}{Vertex}'s longitude coordinate 
+
+\begin{DoxyReturn}{Returns}
+double 
+\end{DoxyReturn}
+\hypertarget{class_vertex_a184927c05667f9bd103f8ae3ed0d49c6}{\index{Vertex@{Vertex}!get\+Min\+Distance@{get\+Min\+Distance}}
+\index{get\+Min\+Distance@{get\+Min\+Distance}!Vertex@{Vertex}}
+\subsubsection[{get\+Min\+Distance}]{\setlength{\rightskip}{0pt plus 5cm}int Vertex.\+get\+Min\+Distance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_vertex_a184927c05667f9bd103f8ae3ed0d49c6}
+
+
+returns the \hyperlink{class_vertex}{Vertex}'s min\+Distance 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\hypertarget{class_vertex_adc8513a28f00e0b38d99cdee8229fe06}{\index{Vertex@{Vertex}!get\+Prev\+Vertex@{get\+Prev\+Vertex}}
+\index{get\+Prev\+Vertex@{get\+Prev\+Vertex}!Vertex@{Vertex}}
+\subsubsection[{get\+Prev\+Vertex}]{\setlength{\rightskip}{0pt plus 5cm}String Vertex.\+get\+Prev\+Vertex (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_vertex_adc8513a28f00e0b38d99cdee8229fe06}
+
+
+returns the \hyperlink{class_vertex}{Vertex} previous to the this \hyperlink{class_vertex}{Vertex} 
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_vertex}{Vertex} 
+\end{DoxyReturn}
+\hypertarget{class_vertex_a90c55a439ee38096f6793d8b53213927}{\index{Vertex@{Vertex}!get\+Vertex\+I\+D@{get\+Vertex\+I\+D}}
+\index{get\+Vertex\+I\+D@{get\+Vertex\+I\+D}!Vertex@{Vertex}}
+\subsubsection[{get\+Vertex\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}String Vertex.\+get\+Vertex\+I\+D (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_vertex_a90c55a439ee38096f6793d8b53213927}
+
+
+returns the \hyperlink{class_vertex}{Vertex}'s I\+D 
+
+\begin{DoxyReturn}{Returns}
+String 
+\end{DoxyReturn}
+\hypertarget{class_vertex_a98183e2dab0e6b001de3e07d5dd881a3}{\index{Vertex@{Vertex}!set\+Latitude@{set\+Latitude}}
+\index{set\+Latitude@{set\+Latitude}!Vertex@{Vertex}}
+\subsubsection[{set\+Latitude}]{\setlength{\rightskip}{0pt plus 5cm}void Vertex.\+set\+Latitude (
+\begin{DoxyParamCaption}
+\item[{int}]{lat}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_vertex_a98183e2dab0e6b001de3e07d5dd881a3}
+
+
+sets the latitude coordinate for the \hyperlink{class_vertex}{Vertex} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em double} & lat which expects a latitude coordinate \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{class_vertex_a29dca66870088075feb30929f2908cf4}{\index{Vertex@{Vertex}!set\+Longitude@{set\+Longitude}}
+\index{set\+Longitude@{set\+Longitude}!Vertex@{Vertex}}
+\subsubsection[{set\+Longitude}]{\setlength{\rightskip}{0pt plus 5cm}void Vertex.\+set\+Longitude (
+\begin{DoxyParamCaption}
+\item[{int}]{lon}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_vertex_a29dca66870088075feb30929f2908cf4}
+
+
+sets the longitude coordinate for the \hyperlink{class_vertex}{Vertex} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em double} & lon which expects a longitude coordinate \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{class_vertex_a5d438de1e0b630a74195c816216f092e}{\index{Vertex@{Vertex}!set\+Min\+Distance@{set\+Min\+Distance}}
+\index{set\+Min\+Distance@{set\+Min\+Distance}!Vertex@{Vertex}}
+\subsubsection[{set\+Min\+Distance}]{\setlength{\rightskip}{0pt plus 5cm}void Vertex.\+set\+Min\+Distance (
+\begin{DoxyParamCaption}
+\item[{int}]{min}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_vertex_a5d438de1e0b630a74195c816216f092e}
+
+
+sets the minimul distance for the \hyperlink{class_vertex}{Vertex} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & min\+Dist which expects the minimum distance \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{class_vertex_aae1304e9e84e3cc4dc5c58e12909ee2b}{\index{Vertex@{Vertex}!set\+Prev\+Vertex@{set\+Prev\+Vertex}}
+\index{set\+Prev\+Vertex@{set\+Prev\+Vertex}!Vertex@{Vertex}}
+\subsubsection[{set\+Prev\+Vertex}]{\setlength{\rightskip}{0pt plus 5cm}void Vertex.\+set\+Prev\+Vertex (
+\begin{DoxyParamCaption}
+\item[{String}]{prev}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_vertex_aae1304e9e84e3cc4dc5c58e12909ee2b}
+
+
+sets the previous \hyperlink{class_vertex}{Vertex}'s previous \hyperlink{class_vertex}{Vertex} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \hyperlink{class_vertex}{Vertex}} & prev which expects the \hyperlink{class_vertex}{Vertex} previous to this one \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{class_vertex_ae9ab92525b737f12bf6ed806d7d3a749}{\index{Vertex@{Vertex}!set\+Vertex\+I\+D@{set\+Vertex\+I\+D}}
+\index{set\+Vertex\+I\+D@{set\+Vertex\+I\+D}!Vertex@{Vertex}}
+\subsubsection[{set\+Vertex\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}void Vertex.\+set\+Vertex\+I\+D (
+\begin{DoxyParamCaption}
+\item[{String}]{I\+D}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_vertex_ae9ab92525b737f12bf6ed806d7d3a749}
+
+
+sets the \hyperlink{class_vertex}{Vertex}'s I\+D 
+
+
+\begin{DoxyParams}{Parameters}
+{\em String} & I\+D which expects the I\+D for the vertex \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_vertex_8java}{Vertex.\+java}\end{DoxyCompactItemize}
